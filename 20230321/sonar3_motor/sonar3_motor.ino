@@ -120,7 +120,7 @@ void loop()
  // Serial.println( sonar3() );
 
   motor_A_control(HIGH,100);
-  motor_B_control(LOW,100);
+  motor_B_control(HIGH,100);
   
   delay(500);
 }
